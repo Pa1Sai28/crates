@@ -1,8 +1,9 @@
 def hello():
     return 'world'
 
-def add(a, b):
-    return a + b
+def add(a, c):
+    # returning the sum of a and b
+    return a + c
 
 def test_hello():
     assert hello() == 'world'
