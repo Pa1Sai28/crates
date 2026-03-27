@@ -3,3 +3,6 @@ def hello():
 
 def add(a, b):
     return a + b
+
+def test_hello():
+    assert hello() == 'world'
